@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hard Beginner Form</title>
+</head>
+<body>
+
+<h2> Student Registration Form</h2>
+
+<form>
+
+    <h3>Personal Details</h3>
+    First Name: <input type="text" name="fname" placeholder="Enter First Name" required><br><br>
+    Last Name: <input type="text" name="lname" placeholder="Enter Last Name" required><br><br>
+    Age: <input type="number" name="age" ><br><br>
+    Date of Birth: <input type="date" name="dob"><br><br>
+    Gender:
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other
+    <br><br>
+    Address:<br>
+    <textarea name="address" rows="4" cols="50" required placeholder="Enter Address"></textarea>
+    <br><br>
+
+    <h3>Contact Information</h3>
+    Email: <input type="email" name="email" required placeholder="Enter E-mail"><br><br>
+    Phone Number: <input type="tel" name="phone" required placeholder="Enter Mobile Number"><br><br>
+    Alternate Phone: <input type="tel" name="altphone" placeholder="Enter Secound Number"><br><br>
+
+    <h3>Course Information</h3>
+    Select Course:
+    <select name="course">
+        <option>BCA</option>
+        <option>BBA</option>
+        <option>Computer Science</option>
+        <option>Electrical Engineering</option>
+        <option>Mechanical Engineering</option>
+    </select>
+    <br><br>
+
+    Select Semester:
+    <select name="semester">
+        <option>1st Semester</option>
+        <option>2nd Semester</option>
+        <option>3rd Semester</option>
+        <option>4th Semester</option>
+        <option>5th Semester</option>
+        <option>6th Semester</option>
+    </select>
+    <br><br>
+
+    Mode of Study:
+    <input type="radio" name="study" value="full-time"> Full Time
+    <input type="radio" name="study" value="part-time"> Part Time
+    <br><br>
+
+    <h3>Skills (Select all you know)</h3>
+    <input type="checkbox" name="skills" value="html"> HTML<br>
+    <input type="checkbox" name="skills" value="css"> CSS<br>
+    <input type="checkbox" name="skills" value="js"> JavaScript<br>
+    <input type="checkbox" name="skills" value="python"> Python<br>
+    <input type="checkbox" name="skills" value="java"> Java<br>
+    <input type="checkbox" name="skills" value="c++"> C++<br>
+    <br>
+
+    <h3>Parent/Guardian Details</h3>
+    Father's Name: <input type="text" name="father" placeholder="Enter Father Name" required><br><br>
+    Mother's Name: <input type="text" name="mother" placeholder="Enter mother Name" required><br><br>
+    Parent Phone: <input type="tel" name="parentPhone" placeholder="Enter Parent Mobile" required><br><br>
+    Parent Email: <input type="email" name="parentEmail" placeholder="Enter Parent E-mail"><br><br>
+
+    <h3>Previous Education</h3>
+    School Name: <input type="text" name="school" placeholder="Last School/college Name"><br><br>
+    Last Class Passed: <input type="text" name="class" placeholder=""><br><br>
+    Percentage: <input type="number" name="percent" placeholder="00.00%"><br><br>
+
+    <h3>Document Upload</h3>
+    Upload Photo: <input type="file" name="photo"><br><br>
+    Upload Marksheet: <input type="file" name="marksheet"><br><br>
+    Upload ID Proof: <input type="file" name="idproof"><br><br>
+
+    <h3>Extra Information</h3>
+    Why do you want to join this course?<br>
+    <textarea name="reason" rows="5" cols="50" placeholder="Give some Details"></textarea>
+    <br><br>
+
+    Do you need a hostel?  
+    <input type="radio" name="hostel" value="yes"> Yes  
+    <input type="radio" name="hostel" value="no"> No  
+    <br><br>
+
+    <h3>Declaration</h3>
+    <input type="checkbox" name="agree"> I agree that the above information is correct.
+    <br><br>
+
+    <input type="submit" value="Submit Form">
+    <input type="reset" value="Reset form">
+
+</form>
+
+</body>
+</html>

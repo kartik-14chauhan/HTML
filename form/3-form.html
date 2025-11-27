@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Full Admission Form</h2>
+<form>
+    <fieldset>
+        <legend>Student Details</legend>
+        Name: <input type="text" name="name" placeholder="Enter Name" required><br><br>
+        Age: <input type="number" name="age" placeholder="Enter Age" required><br><br>
+        Address:<br>
+        <textarea name="address" rows="3" cols="40" placeholder="Enter Address"></textarea>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Parent Information</legend>
+        Father's Name: <input type="text" name="father" placeholder="Enter Father Name"><br><br>
+        Mother's Name: <input type="text" name="mother" placeholder="Enter Mother Name"><br><br>
+        Phone: <input type="tel" name="parentPhone"><br><br>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Course Selection</legend>
+        Choose Course:
+        <select name="course">
+            <option>BCA</option>
+            <option>BBA</option>
+            <option>Computer Science</option>
+            <option>Mechanical Engineering</option>
+        </select><br><br>
+
+        Study Type :<br>
+        <input type="radio" name="option" value="online"> Online<br>
+        <input type="radio" name="option" value="offline"> Offline<br>
+        <input type="radio" name="option" value="hybrid"> Hybrid<br>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Upload Documents</legend>
+        Photo: <input type="file" name="photo"><br><br>
+        ID Proof: <input type="file" name="id"><br><br>
+    </fieldset>
+
+    <br>
+
+    <input type="submit" value="Submit Application">
+    <input type="reset" value="reset Application">
+</form>
+
+</body>
+</html>
